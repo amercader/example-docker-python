@@ -10,4 +10,5 @@ COPY requirements.txt /srv/app/requirements.txt
 RUN pip install -r /srv/app/requirements.txt
 
 EXPOSE 8000
-CMD python /srv/app/app.py
+
+CMD ["python", "app.py"]
