@@ -2,7 +2,7 @@ FROM python:2.7
 
 RUN mkdir /srv/app
 
-WORKDIR /src/app
+WORKDIR /srv/app
 
 COPY app.py /srv/app/app.py
 COPY requirements.txt /srv/app/requirements.txt
